@@ -37,6 +37,14 @@ pip install transformers==4.19.2 diffusers invisible-watermark
 pip install -e .
 ``` 
 
+(Additional information)
+You also have the option of building your environment using Docker.
+
+```
+docker-compose up -d
+docker-compose exec app bash
+pip install -e .
+```
 
 ## Stable Diffusion v1
 
